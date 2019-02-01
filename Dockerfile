@@ -2,7 +2,7 @@ FROM centos
 
 MAINTAINER zhaoyang
   
-ADD jdk1.8.0_144  jdk1.8.0_144
+ADD jdk1.8.0_201  jdk1.8.0_201
 ADD target/demo-0.0.1-SNAPSHOT.jar demo-0.0.1-SNAPSHOT.jar
 ENV JAVA_HOME=/jdk1.8.0_144
 ENV PATH=$JAVA_HOME/bin:$PATH
